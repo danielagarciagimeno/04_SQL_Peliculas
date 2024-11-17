@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `country_title`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `country_title` (
   `id_title` text,
-  `id_production_countries` int DEFAULT NULL
+  `id_countries` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -47,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-16 16:51:31
+-- Dump completed on 2024-11-17 22:43:48

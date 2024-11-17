@@ -23,8 +23,8 @@ DROP TABLE IF EXISTS `platform_unicos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `platform_unicos` (
-  `id` int DEFAULT NULL,
-  `production_countries` text
+  `id_platform` int DEFAULT NULL,
+  `platform` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -47,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-16 16:51:33
+-- Dump completed on 2024-11-17 22:43:52
